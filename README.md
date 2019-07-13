@@ -6,7 +6,7 @@
 - 所有爬虫**增量**抓取的开关已经打开，如果需要，可以手动关闭，`/spiders/***.py`文件的`FLAG_INTERRUPT = True`常量
 
 - 证券日报  http://zqrb.ccstock.cn/ `scrapy crawl zqrb`
-- 证券时报 http://epaper.stcn.com/paper/zqsb/html/2010-12/17/node_2.htm `scrapy crawl zqsb`
+
 - 证券日报网
   http://www.ccstock.cn/finance/hongguanjingji/index.html
   http://www.ccstock.cn/finance/hangyedongtai/index.html
@@ -66,3 +66,5 @@ http://wallstreetcn.com/news?status=published&type=news&cid=22&order=-created_at
 `scrapy crawl hejjw`
 
 - 如果有问题，可以发邮件沟通`hailong0707@gmail.com`
+-一个很老的项目网站也放了进来
+- 证券时报 http://epaper.stcn.com/paper/zqsb/html/2010-12/17/node_2.htm `scrapy crawl zqsb`
